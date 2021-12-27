@@ -72,7 +72,7 @@ export default function Auth() {
                     <br/><br/>
                     <button className={styles.submitAuth} onClick={handleLogIn} type="submit">{loginOrRegister}</button>
                     <br/><br/>
-                    <button><a href="/auth">เข้าสู่ระบบ/สมัครโดย GOOGLE ACCOUNT</a></button>
+                    <button><a href="https://postitappbyme-server.herokuapp.com/auth">เข้าสู่ระบบ/สมัครโดย GOOGLE ACCOUNT</a></button>
                 </form>
             </div>
         )
